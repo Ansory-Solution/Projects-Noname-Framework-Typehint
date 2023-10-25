@@ -1,0 +1,51 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: .eslintrc.json (ansory-solution/projects/noname-framework/typehint/.eslintrc.json)
+// Content: ESLint config
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"windows"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-mixed-spaces-and-tabs": [
+			"error",
+			"smart-tabs"
+		]
+	},
+	"ignorePatterns": [
+		"dist/*",
+		"node_modules/**/*"
+	]
+}

@@ -1,0 +1,20 @@
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# This File is From Ansory Solution
+# Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+# File: .editorconfig (ansory-solution/projects/noname-framework/typehint/.editorconfig)
+# Content: project editorconfig
+# Copyright (c) 2023 ansolve All rights reserved
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = tab
+end_of_line = crlf
+insert_final_newline = true
+
+[package.json]
+indent_size = 2
+indent_style = space
