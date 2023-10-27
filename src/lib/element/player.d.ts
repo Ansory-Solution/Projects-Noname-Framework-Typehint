@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: player.d.ts (ansory-solution/projects/noname-framework/typehint/src/lib/element/player.d.ts)
+// Content: Noname Player info.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { JudgeResult } from "../../result/judge";
 import { CardOrCards, CardTag } from "../../type/card";
 import { Card } from "./card";
@@ -65,4 +73,23 @@ export class Player extends HTMLDivElement {
 	 * 赠予
 	 */
 	gift(cards: CardOrCards, target: Player): GameEvent<"gift">;
+
+	/**
+	 * Check if the player can gift the card
+	 * 检测角色是否能赠予此牌
+	 *
+	 * @param card 要判断的牌
+	 * @param target 赠予的目标
+	 * @param strict
+	 */
+	canGift(card: Card, target: Player, strict: boolean): boolean;
+
+	/**
+	 * Check if the player refuses gifts
+	 * 检测角色是否拒绝赠予
+	 *
+	 * @param card 要判断的牌
+	 * @param player 赠予的目标
+	 */
+	refuseGifts(card: Card, player: Player): boolean;
 }

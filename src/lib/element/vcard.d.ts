@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: vcard.d.ts (ansory-solution/projects/noname-framework/typehint/src/lib/element/vcard.d.ts)
+// Content: Noname VCard info.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { CardLike, MayCard } from "../../type/card";
 import { Nature, NatureBundle, NatureGiven } from "../../type/nature";
 import { Card } from "./card";

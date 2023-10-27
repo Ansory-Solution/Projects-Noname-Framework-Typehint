@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: card.d.ts (ansory-solution/projects/noname-framework/typehint/src/lib/element/card.d.ts)
+// Content: Noname Card info.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { CardStruct, CardTag } from "../../type/card";
 import { Nature, NatureBundle, NatureGiven } from "../../type/nature";
 import { Player } from "./player";

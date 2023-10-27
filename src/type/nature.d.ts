@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: nature.d.ts (ansory-solution/projects/noname-framework/typehint/type/nature.d.ts)
+// Content: noname nature type.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { CardLike } from "./card";
 
 /**

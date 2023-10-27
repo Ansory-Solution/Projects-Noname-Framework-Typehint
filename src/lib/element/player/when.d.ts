@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: when.d.ts (ansory-solution/projects/noname-framework/typehint/src/lib/element/player/when.d.ts)
+// Content: `Player#when` info.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { OccasionGiven } from "../../../type/skill";
 
 export type PlayerWhenArgument =

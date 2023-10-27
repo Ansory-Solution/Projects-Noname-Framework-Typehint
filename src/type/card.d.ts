@@ -1,3 +1,11 @@
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// This File is From Ansory Solution
+// Licensed under GNU GENERAL PUBLIC LICENSE Version 3
+// File: card.d.ts (ansory-solution/projects/noname-framework/typehint/type/card.d.ts)
+// Content: noname card extra type.
+// Copyright (c) 2023 ansolve All rights reserved
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 import { Card } from "../lib/element/card";
 import { VCard } from "../lib/element/vcard";
 import { Nature } from "./nature";
